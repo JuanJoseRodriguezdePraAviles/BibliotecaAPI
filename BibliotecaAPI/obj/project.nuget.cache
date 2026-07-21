@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fh183gVcQ3Q=",
+  "dgSpecHash": "DNFt6tcWw1Q=",
   "success": true,
   "projectFilePath": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
   "expectedPackageFiles": [
@@ -100,6 +100,18 @@
       "warningLevel": 1,
       "filePath": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
       "libraryId": "Microsoft.Data.SqlClient",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "El paquete \"Microsoft.OpenApi\" 2.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
+      "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"
       ]

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\controllers\\lendingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\lendingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\controllers\\usersystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\usersystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\controllers\\lendingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\lendingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\data\\bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\data\\bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\models\\usersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,19 +59,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LendingsController.cs",
-              "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\LendingsController.cs",
-              "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\LendingsController.cs",
-              "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\LendingsController.cs",
-              "RelativeToolTip": "BibliotecaAPI\\Controllers\\LendingsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAdAAAAAAAAAA==",
+              "Title": "UserSystemController.cs",
+              "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\UserSystemController.cs",
+              "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\UserSystemController.cs",
+              "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\UserSystemController.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Controllers\\UserSystemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T09:32:43.095Z",
+              "WhenOpened": "2026-07-14T07:18:58.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "LendingsController.cs",
+              "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\LendingsController.cs",
+              "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\LendingsController.cs",
+              "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\LendingsController.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Controllers\\LendingsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T09:32:43.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\BooksController.cs",
@@ -84,18 +96,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BibliotecaContext.cs",
-              "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Data\\BibliotecaContext.cs",
-              "RelativeDocumentMoniker": "BibliotecaAPI\\Data\\BibliotecaContext.cs",
-              "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Data\\BibliotecaContext.cs",
-              "RelativeToolTip": "BibliotecaAPI\\Data\\BibliotecaContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:59:52.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\appsettings.json",
               "RelativeDocumentMoniker": "BibliotecaAPI\\appsettings.json",
@@ -107,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Program.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Program.cs",
@@ -191,7 +191,7 @@
               "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\UsersController.cs",
               "RelativeToolTip": "BibliotecaAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T09:49:25.951Z",
               "EditorCaption": ""
