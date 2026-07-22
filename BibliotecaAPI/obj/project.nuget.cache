@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DNFt6tcWw1Q=",
+  "dgSpecHash": "3vQKH0HBqBg=",
   "success": true,
   "projectFilePath": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jjpra\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\jjpra\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\jjpra\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\jjpra\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jjpra\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.8\\microsoft.aspnetcore.authentication.jwtbearer.10.0.8.nupkg.sha512",
     "C:\\Users\\jjpra\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\10.0.8\\microsoft.aspnetcore.authentication.negotiate.10.0.8.nupkg.sha512",
