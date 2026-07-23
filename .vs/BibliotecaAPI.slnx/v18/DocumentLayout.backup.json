@@ -106,8 +106,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Migrations\\20260721093544_RenameRoleProperty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T09:36:16.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T09:36:16.985Z"
             },
             {
               "$type": "Document",
@@ -119,8 +118,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Migrations\\20260527082158_InitialCreate.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T09:31:01.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T09:31:01.925Z"
             },
             {
               "$type": "Document",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Models\\UserSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T10:06:54.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T10:06:54.689Z"
             },
             {
               "$type": "Document",
@@ -145,8 +142,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Auth\\JwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:56:59.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T08:56:59.496Z"
             },
             {
               "$type": "Document",
@@ -156,7 +152,7 @@
               "RelativeDocumentMoniker": "BibliotecaAPI\\Auth\\JwtSettings.cs",
               "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Auth\\JwtSettings.cs",
               "RelativeToolTip": "BibliotecaAPI\\Auth\\JwtSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T08:57:53.94Z",
               "EditorCaption": ""
@@ -171,8 +167,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Migrations\\BibliotecaContextModelSnapshot.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAgwHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T09:30:25.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T09:30:25.69Z"
             },
             {
               "$type": "Document",
@@ -184,8 +179,7 @@
               "RelativeToolTip": "BibliotecaAPI\\DTOs\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:59:51.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T08:59:51.832Z"
             },
             {
               "$type": "Document",
@@ -197,8 +191,7 @@
               "RelativeToolTip": "BibliotecaAPI\\DTOs\\LoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:59:23.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T08:59:23.36Z"
             },
             {
               "$type": "Document",
@@ -210,8 +203,7 @@
               "RelativeToolTip": "BibliotecaAPI\\DTOs\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:59:01.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T08:59:01.16Z"
             },
             {
               "$type": "Document",
@@ -223,8 +215,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:58:23.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T08:58:23.456Z"
             },
             {
               "$type": "Document",
@@ -236,8 +227,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Auth\\PasswordHasher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:57:25.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T08:57:25.4Z"
             },
             {
               "$type": "Document",
@@ -249,8 +239,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Controllers\\UserSystemController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T07:18:58.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-14T07:18:58.828Z"
             },
             {
               "$type": "Document",
@@ -262,8 +251,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Controllers\\LendingsController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwCoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T09:32:43.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-13T09:32:43.095Z"
             },
             {
               "$type": "Document",
@@ -275,8 +263,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Controllers\\BooksController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T08:31:34.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T08:31:34.543Z"
             },
             {
               "$type": "Document",
@@ -288,8 +275,7 @@
               "RelativeToolTip": "BibliotecaAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-26T10:05:11.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T10:05:11.424Z"
             },
             {
               "$type": "Document",
@@ -301,8 +287,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAIBJwC0AAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T10:14:31.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T10:14:31.751Z"
             },
             {
               "$type": "Document",
@@ -314,8 +299,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Models\\Lending.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T09:43:56.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T09:43:56.153Z"
             },
             {
               "$type": "Document",
@@ -327,8 +311,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T09:37:40.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T09:37:40.402Z"
             },
             {
               "$type": "Document",
@@ -340,8 +323,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T08:56:02.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T08:56:02.092Z"
             },
             {
               "$type": "Document",
@@ -353,8 +335,7 @@
               "RelativeToolTip": "BibliotecaAPI\\BibliotecaAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-25T08:52:08.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T08:52:08.59Z"
             }
           ]
         },
