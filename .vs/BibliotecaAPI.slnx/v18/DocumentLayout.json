@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\auth\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\auth\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\auth\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\auth\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\jjpra\\source\\repos\\bibliotecaapi\\bibliotecaapi\\controllers\\usersystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\usersystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,23 +94,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20260527082158_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Migrations\\20260527082158_InitialCreate.cs",
-              "RelativeDocumentMoniker": "BibliotecaAPI\\Migrations\\20260527082158_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Migrations\\20260527082158_InitialCreate.cs",
-              "RelativeToolTip": "BibliotecaAPI\\Migrations\\20260527082158_InitialCreate.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T09:31:01.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserSystem.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Models\\UserSystem.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Models\\UserSystem.cs",
@@ -122,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Auth\\JwtService.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Auth\\JwtService.cs",
@@ -134,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JwtSettings.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Auth\\JwtSettings.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Auth\\JwtSettings.cs",
@@ -142,12 +130,11 @@
               "RelativeToolTip": "BibliotecaAPI\\Auth\\JwtSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:57:53.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T08:57:53.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\appsettings.json",
               "RelativeDocumentMoniker": "BibliotecaAPI\\appsettings.json",
@@ -155,8 +142,7 @@
               "RelativeToolTip": "BibliotecaAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-26T10:05:11.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T10:05:11.424Z"
             },
             {
               "$type": "Document",
@@ -166,14 +152,39 @@
               "RelativeDocumentMoniker": "BibliotecaAPI\\Program.cs",
               "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Program.cs",
               "RelativeToolTip": "BibliotecaAPI\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T10:14:31.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Auth\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "BibliotecaAPI\\Auth\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Auth\\PasswordHasher.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Auth\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:57:25.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260527082158_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Migrations\\20260527082158_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BibliotecaAPI\\Migrations\\20260527082158_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Migrations\\20260527082158_InitialCreate.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Migrations\\20260527082158_InitialCreate.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:31:01.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "20260721093544_RenameRoleProperty.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Migrations\\20260721093544_RenameRoleProperty.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Migrations\\20260721093544_RenameRoleProperty.cs",
@@ -185,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BibliotecaContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Migrations\\BibliotecaContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Migrations\\BibliotecaContextModelSnapshot.cs",
@@ -197,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\DTOs\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\DTOs\\RegisterRequest.cs",
@@ -209,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\DTOs\\LoginResponse.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\DTOs\\LoginResponse.cs",
@@ -221,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\DTOs\\LoginRequest.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\DTOs\\LoginRequest.cs",
@@ -233,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\AuthController.cs",
@@ -242,18 +253,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T08:58:23.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Auth\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "BibliotecaAPI\\Auth\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Auth\\PasswordHasher.cs",
-              "RelativeToolTip": "BibliotecaAPI\\Auth\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:57:25.4Z"
             },
             {
               "$type": "Document",
