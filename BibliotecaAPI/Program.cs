@@ -44,6 +44,7 @@ builder.Services.AddCors(options =>
     });
 });
 builder.Services.AddScoped<PasswordHasher>();
+builder.Services.AddScoped<JwtService>();
 
 builder.Services.AddDbContext<BibliotecaContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
