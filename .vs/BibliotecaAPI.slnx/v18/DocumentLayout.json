@@ -110,8 +110,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Data\\BibliotecaContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T07:13:17.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-29T07:13:17.635Z"
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Program.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T10:14:31.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T10:14:31.751Z"
             },
             {
               "$type": "Document",
@@ -160,8 +158,7 @@
               "RelativeToolTip": "BibliotecaAPI\\DTOs\\LoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:59:23.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T08:59:23.36Z"
             },
             {
               "$type": "Document",
@@ -171,7 +168,7 @@
               "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\jjpra\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "BibliotecaAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T08:58:23.456Z",
               "EditorCaption": ""
@@ -198,8 +195,7 @@
               "RelativeToolTip": "BibliotecaAPI\\Auth\\JwtService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:56:59.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T08:56:59.496Z"
             },
             {
               "$type": "Document",
