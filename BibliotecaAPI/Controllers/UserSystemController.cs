@@ -2,9 +2,11 @@
 using BibliotecaAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BibliotecaAPI.Controllers
 {
+    [Authorize(Roles = "admin")]
     [ApiController]
     [Route("api/[controller]")]
     public class UserSystemController : ControllerBase

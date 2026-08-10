@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using BibliotecaAPI.Data;
 using BibliotecaAPI.Models;
 
 namespace BibliotecaAPI.Controllers
 {
+    [Authorize(Roles = "admin,bibliotecario")]
     [ApiController]
     [Route("api/[controller]")]
     public class BooksController : ControllerBase

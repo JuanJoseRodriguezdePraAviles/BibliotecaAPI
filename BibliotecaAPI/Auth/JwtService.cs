@@ -1,6 +1,9 @@
 ﻿using BibliotecaAPI.Models;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using BibliotecaAPI.Models;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -14,7 +17,7 @@ namespace BibliotecaAPI.Auth
         public JwtService(IOptions<JwtSettings> options) {
             _settings = options.Value;
         }
-        public string GenerateToken(UserSystem user) {
+        public LoginToken GenerateToken(UserSystem user) {
             var claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.NameIdentifier, user.ID.ToString()),
@@ -31,7 +34,16 @@ namespace BibliotecaAPI.Auth
                 claims: claims,
                 expires: expiration,
                 signingCredentials: credentials);
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            return new LoginToken
+            {
+                Token = new JwtSecurityTokenHandler().WriteToken(token),
+                Expiration = expiration
+            };
+        }
+
+        public class LoginToken {
+            public string Token { get; set; } = string.Empty;
+            public DateTime Expiration { get; set; }
         }
     }
 }

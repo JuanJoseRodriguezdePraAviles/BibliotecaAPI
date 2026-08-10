@@ -12,7 +12,7 @@ namespace BibliotecaAPI.Controllers
     public class AuthController : ControllerBase
     {
         private readonly BibliotecaContext _context;
-        private readonly PaswordHasher _passwordHasher;
+        private readonly PasswordHasher _passwordHasher;
         private readonly JwtService _jwtService;
 
         public AuthController(BibliotecaContext context, PasswordHasher passwordHasher, JwtService jwtService) {
@@ -24,6 +24,14 @@ namespace BibliotecaAPI.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterRequest request)
         {
+            if (string.IsNullOrWhiteSpace(request.Username) || string.IsNullOrWhiteSpace(request.Password))
+            {
+                return BadRequest("Username and password are required.");
+            }
+            if (request.Role != "admin" && request.Role != "bibliotecario")
+            {
+                return BadRequest("Invalid role");
+            }
             if (await _context.UsersSystem.AnyAsync(x => x.Username == request.Username))
             {
                 return BadRequest("Username already exists.");
@@ -35,7 +43,7 @@ namespace BibliotecaAPI.Controllers
             var user = new UserSystem
             {
                 Username = request.Username,
-                PasswordHash = _passwordHasher.HashPassword(request.Password),
+                PasswordHash = _passwordHasher.Hash(request.Password),
                 Role = request.Role
             };
             _context.UsersSystem.Add(user);
@@ -50,15 +58,15 @@ namespace BibliotecaAPI.Controllers
             {
                 return Unauthorized("Invalid username or password.");
             }
-            if (!_passwordHasher.VerifyPassword(request.Password, user.PasswordHash))
+            if (!_passwordHasher.Verify(request.Password, user.PasswordHash))
             {
                 return Unauthorized("Invalid username or password.");
             }
-            var token = _jwtService.GenerateToken(user);
+            var result = _jwtService.GenerateToken(user);
             return Ok(new LoginResponse
             {
-                Token = token,
-                Expiration = DateTime.UtcNow.AddMinutes(120)
+                Token = result.Token,
+                Expiration = result.Expiration
             });
         }
     }
