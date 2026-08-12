@@ -66,4 +66,9 @@ app.MapControllers();
 app.UseCors("AllowAll");
 app.MapControllers();
 
+using (var scope = app.Services.CreateScope()) {
+    var context = scope.ServiceProvider.GetRequiredService<BibliotecaContext>();
+    var passwordHasher = scope.ServiceProvider.GetRequiredService<PasswordHasher>();
+    await DbSeeder.SeedAsync(context, passwordHasher);
+}
 app.Run();
