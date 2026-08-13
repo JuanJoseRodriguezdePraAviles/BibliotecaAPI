@@ -2,6 +2,8 @@
 using BibliotecaAPI.Data;
 using BibliotecaAPI.DTOs;
 using BibliotecaAPI.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,36 +22,7 @@ namespace BibliotecaAPI.Controllers
             _passwordHasher = passwordHasher;
             _jwtService = jwtService;
         }
-
-        [HttpPost("register")]
-        public async Task<IActionResult> Register(RegisterRequest request)
-        {
-            if (string.IsNullOrWhiteSpace(request.Username) || string.IsNullOrWhiteSpace(request.Password))
-            {
-                return BadRequest("Username and password are required.");
-            }
-            if (request.Role != "admin" && request.Role != "bibliotecario")
-            {
-                return BadRequest("Invalid role");
-            }
-            if (await _context.UsersSystem.AnyAsync(x => x.Username == request.Username))
-            {
-                return BadRequest("Username already exists.");
-            }
-            if (request.Role != "admin" && request.Role != "bibliotecario")
-            {
-                return BadRequest("Invalid role.");
-            }
-            var user = new UserSystem
-            {
-                Username = request.Username,
-                PasswordHash = _passwordHasher.Hash(request.Password),
-                Role = request.Role
-            };
-            _context.UsersSystem.Add(user);
-            await _context.SaveChangesAsync();
-            return Ok("User created");
-        }
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<ActionResult<LoginResponse>> Login(LoginRequest request)
         {
@@ -67,6 +40,38 @@ namespace BibliotecaAPI.Controllers
             {
                 Token = result.Token,
                 Expiration = result.Expiration
+            });
+        }
+
+        [Authorize(Roles = "admin")]
+        [HttpPost("create-user")]
+        public async Task<IActionResult> CreateUser(RegisterRequest request)
+        {
+            if(string.IsNullOrWhiteSpace(request.Username) || string.IsNullOrWhiteSpace(request.Password))
+            {
+                return BadRequest("Username and password are required.");
+            }
+            if(request.Role != "admin")
+            {
+                return BadRequest("Invalid role.");
+            }
+            if(await _context.UsersSystem.AnyAsync(x => x.Username == request.Username))
+            {
+                return Conflict("Username already exists.");
+            }
+            var user = new UserSystem
+            {
+                Username = request.Username,
+                PasswordHash = _passwordHasher.Hash(request.Password),
+                Role = request.Role
+            };
+            _context.UsersSystem.Add(user);
+            await _context.SaveChangesAsync();
+            return Ok(new
+            {
+                message = "User created successfully.",
+                username = user.Username,
+                role = user.Role
             });
         }
     }
