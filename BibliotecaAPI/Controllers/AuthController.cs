@@ -26,10 +26,10 @@ namespace BibliotecaAPI.Controllers
         [HttpPost("login")]
         public async Task<ActionResult<LoginResponse>> Login(LoginRequest request)
         {
-            var user = await _context.UsersSystem.FirstOrDefaultAsync(x => x.Username == request.Usertname);
+            var user = await _context.UsersSystem.FirstOrDefaultAsync(x => x.Username == request.Username);
             if (user == null)
             {
-                return Unauthorized("Invalid username or password.");
+                return Unauthorized("User not authorized.");
             }
             if (!_passwordHasher.Verify(request.Password, user.PasswordHash))
             {
